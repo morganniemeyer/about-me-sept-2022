@@ -36,4 +36,5 @@ footer {
 
 .photo {
     transform: scaleX(-1);
+    width: 350px;
 }
