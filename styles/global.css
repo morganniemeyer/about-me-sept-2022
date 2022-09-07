@@ -1,9 +1,9 @@
 /* color palette:
-tan: #C9AA8E
-light green: #A7A167
-olive: #423F2D
-maroon: #5D3437
-chemise: #b37A8D */
+tan: #C9AA8E;
+light green: #A7A167;
+olive: #423F2D;
+maroon: #5D3437;
+chemise: #b37A8D; */
 
 :root {
     --background: rgb(224, 234, 247);
@@ -25,6 +25,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #5d3437;
+    color: #c9aa8e;
 }
 
 main {
@@ -51,11 +52,14 @@ footer {
 .container {
     display: flex;
     flex-direction: row;
-    padding: : 20px;
+    padding: 20px;
     justify-content: space-around;
 }
 
 .upper {
     display: flex;
     flex-direction: row;
+}
+h2 {
+    color: #b37a8d;
 }
