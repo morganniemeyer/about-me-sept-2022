@@ -1,13 +1,20 @@
+/* color palette:
+tan: #C9AA8E;
+light green: #A7A167;
+olive: #423F2D;
+maroon: #5D3437;
+chemise: #b37A8D; */
+
 :root {
     --background: rgb(224, 234, 247);
-    --header-background: white;
-    --footer-background: rgb(243, 242, 242);
+    --header-background: #5d3437;
+    --footer-background: #5d3437;
 }
 
 body {
     height: 100vh;
     font-family: 'Rubik', san-serif;
-    background: var(--background);
+    background: #423f2d;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
@@ -17,19 +24,42 @@ header {
     top: 0;
     display: flex;
     align-items: center;
-    background-color: var(--header-background);
+    background-color: #5d3437;
+    color: #c9aa8e;
 }
 
 main {
     padding: 20px;
+    color: #a7a167;
 }
 
 footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+.photo {
+    transform: scaleX(-1);
+    width: 350px;
+    float: right;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+}
+h2 {
+    color: #b37a8d;
 }
