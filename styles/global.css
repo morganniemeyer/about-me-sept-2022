@@ -1,7 +1,14 @@
+/* color palette:
+tan: #C9AA8E
+light green: #A7A167
+olive: #423F2D
+maroon: #5D3437
+chemise: #b37A8D */
+
 :root {
     --background: rgb(224, 234, 247);
-    --header-background: white;
-    --footer-background: rgb(243, 242, 242);
+    --header-background: #5d3437;
+    --footer-background: #5d3437;
 }
 
 body {
@@ -17,7 +24,7 @@ header {
     top: 0;
     display: flex;
     align-items: center;
-    background-color: var(--header-background);
+    background-color: #5d3437;
 }
 
 main {
@@ -38,4 +45,15 @@ footer {
 .photo {
     transform: scaleX(-1);
     width: 350px;
+    float: right;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
 }
